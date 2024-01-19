@@ -53,7 +53,7 @@ function fibVersion01(x) {
     }
     console.log(fibArray)
 }
-fibVersion01(8)
+// fibVersion01(8)
 
 function fibVersion02(x) {
     let fibArray = []
@@ -66,7 +66,7 @@ function fibVersion02(x) {
     }
     console.log(fibArray)
 }
-fibVersion02(8)
+// fibVersion02(8)
 
 function fibVersion03(x) {
     let fibArray = [0,1]
@@ -75,7 +75,7 @@ function fibVersion03(x) {
     }
     console.log(fibArray)
 }
-fibVersion03(8)
+// fibVersion03(8)
 
 function fibVersion04(x) {
     let fibArray = []
@@ -99,6 +99,10 @@ var a = 'disH'
 var b = a.toLowerCase()
 console.log(b)
 
-a = 'Hello!, World!'
-b = a.split(" ").join("").toLowerCase().replace(/!/g,/,/g, '')
+a = 'Hello World'
+b = a.toLowerCase().split(" ").join("")
+console.log(b)
+
+a = 'Hello! World!'
+b = a.toLowerCase().split(" ").join("").replace(/!/g, '')
 console.log(b)
